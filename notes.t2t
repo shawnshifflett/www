@@ -1,0 +1,85 @@
+Notes
+Shawn Shifflett
+This page last modified on %%mtime(%c) UTC
+
+%!target  : html
+%!options : --toc --toc-level=4 --encoding=iso-8859-1
+%!style   : styles.css
+
+I keep personal notes that I doubt anyone but me would find useful, but maybe these can help someone else.
+
+==== GitHub Open Source Guide ====
+
+[GitHub Open Source Guide https://opensource.guide/]
+
+==== Generate SSH keys ====
+
+On client:
+
+```
+ssh-keygen -t rsa
+Transfer client's id_rsa.pub to server.
+```
+
+On server:
+
+```
+cat id_rsa.pub >> ~/.ssh/authorized_keys
+```
+
+==== Reconnect to GNU Screen automatically after SSH login ====
+
+Append to .bashrc:
+
+```
+if [ -z "$STY" ]; then screen -RR; fi
+```
+
+==== Configure a Dell C1760nw laser printer in BunsenLabs Linux ====
+
+Unfortunately Dell does not provide any GNU/Linux drivers for the c1760nw. However, that particular printer is a rebranding of the Xerox Phaser 6000. Xerox does provide GNU/Linux drivers in both .RPM and .DEB format.
+
+I give 100% of the credit for this installation hack to [Codefucius's http://codefucius.blogspot.co.uk/2014/03/getting-dell-c1760nw-color-printer-up.html] 2014 blog post regarding the same.
+
+Download the Xerox 600 drivers. There is no way to //wget// the file directly as there is a licensing agreement:
+
+[Xerox drivers http://www.support.xerox.com/support/phaser-6000/downloads/engb.html?operatingSystem=linux&fileLanguage=en_GB]
+
+Install the 32bit dependencies:
+
+```
+dpkg --add-architecture i386
+sudo apt-get install libcupsimage2:i386
+```
+
+Unzip the Xerox drivers which will provide a .deb driver package. Install this package with assurance that dependencies are met:
+
+```
+sudo gdebi <driver.deb>
+```
+
+or
+
+```
+sudo dpkg -i <driver.deb>
+sudo apt-get install -f
+```
+
+Connect to the local CUPS server, install the Dell printer via the admin interface, but choose the Xerox 6000B driver.
+
+```
+http://localhost:631
+```
+
+'''
+<hr>
+'''
+
+'''
+<nav>
+  <ul>
+  <li><a href="index.html">home</a></li>
+  <li><a href="http://sshifflett.sdf.org/notes.html">notes</a></li>
+</ul>
+</nav>
+'''

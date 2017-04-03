@@ -1,0 +1,84 @@
+sshifflett.sdf.org
+Shawn Shifflett
+This page last modified on %%mtime(%c) UTC
+
+%!target  : html
+%!options : --encoding=iso-8859-1
+%!style   : styles.css
+
+==== About ====
+
+I am currently a QSA, and have worked in information security for the last twenty years. I am an advocate of FOSS, cryptography, LaTeX, and all variants of Unix/Linux.
+
+==== Email ====
+
+I strongly prefer plaintext emails. If you send me a HTML-formatted message I will still view it as plain text, and that may cause me to miss details specific to HTML formatting. I can be contacted at the following email address:
+
+sshifflett <at> sdf <dot> org
+
+Please note that I use a 3rd party email service provider. The admins of the service provider are able to read all my incoming and outgoing mail. This is by definition how email infrastructures work, and it is irrelevant whether TLS or other encryption is used between email clients and corresponding email servers. Please consider using public key encryption to secure our communication. Using my public key allows you to at least gain a reasonable level of assurance that my message originates from me, and has not been modified en route. Please feel free to exchange keys with me to allow for message encryption.
+
+My public key is below, and you may download it [here http://sshifflett.sdf.org/content/sshifflett_pubkey.txt]:
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+mQENBFekCwgBCADZGG+rbaiMls4/NiZffkkGtiMgBP0DJ76PrWmRWuj033IdkPqh
+utqDnJ9Qv+XmdAoR5fnRku9uJT0reCELpoifWFS5+eqS7yS75d4NpayzHFmI1SAG
+ja1mJ7MLQTAZ/pjnwMkLQ+CUSRwwScOJ6xu9CvBj+gcQBarizhLJKUIiKdRRnPaI
+nPUweSg3TfO1B1r7yHK9giEc7UGjiiU3djbax5So39lkJwXhMPIhZrvxPlg5trNx
+z6fH4NeeJXXs7pskPrZhvQR1wXulhJ3EpIrXGSw0rkbwIj/yS3lkPT4gmSKhu3yp
+qNZC//r7uzWlDLDV28zzg2sqF47G+Wt6q81dABEBAAG0JFNoYXduIFNoaWZmbGV0
+dCA8c3NoaWZmbGV0dEBzZGYub3JnPokBOAQTAQIAIgUCV6QLCAIbAwYLCQgHAwIG
+FQgCCQoLBBYCAwECHgECF4AACgkQYR+i8wf8ZQMwQQgA0r9O6Ot2T9bc4P8Zw1ix
+k0k99hTufDZyZt6Zek37f/wwhoyXEksFOmdb8qdNRjNQvmxypJpjsOE1zljOCbGW
+s4TuMTgeLvdJYAwzgmQbopJrfpfdlwtV+0Qjp+eKuROxi+Eull8oi0tqNlWxF2X1
+555MJSzodPOsk8uCGkMw5W+gkeElvzfSxwKuw2uq9Jls3po/leMn5aS8b6T4J77K
+61uVuiJmKSTN7iQSK0usdctH0nmiTLo9cUJKsFUBPes4x5gqPfXaWWQNVyeEzZ6o
+vHqnasiohPt1rivT0EN3vzd/u2sQeHQ5NX7/c4EmDEAJiSbDgs/39Vix7Niv/djR
+tLkBDQRXpAsIAQgAyMW/gEKDMD8lBtULXqHw4ReB+xvnIzAzaWRBoyGe2cJK64T3
+Y5dDirKfFG6jhFJojotIcFJCeQvuyRjHrxblIXYNaYiWw1T6ouN706+F43F+Ycz/
+PAlEY79bMpNS/r2EacuNyFlaeQc4k/bV5U/n90IdgBmUH8a+NyLalAiO5rJ7kVD2
+R7fWIsTXtw9VHP7kIRJd7reRhNWjNJs+1Hh3cPZWlQZDSh+sEuy6szHP2qozJCA1
+BgPfTiGbL5ZYU7Q7aXlQF7TcfJgNXYXNLnMXoUweUrlvgdAJBKUgCdh3SO2RA421
+UjlStoSTTNeftR1PvqS3+uo93NawdZ2cHRrQ1QARAQABiQEfBBgBAgAJBQJXpAsI
+AhsMAAoJEGEfovMH/GUDcw0H/jU+ZS5oJtGsL/uUU8rGyx6ReIXoEBqPgxCjPMz4
+/HeozgyT92hpaBDJ2HqsuNAp406c82a+zjHkI4hDCTuNPN9azv+Wt/9rSlswMyMs
+jfSGutKrRKIY9c1iP06VJDfo6H7waGNw9FqPKOTZnZkay/ymvLk2CnqLB7Xx3t5H
+DY4P1gtgZkR30ri4yfX2uZmPhUoJtaKxFSYA61Dg95eElKHxl0+SbEg4yCDJ/aeI
+na80QgnE78PUB5Zl6+d983rPeiPZQ4X67yRXTRsHmo8Gu9CStFNIGsmCdnGovdbD
+uR7AzGVAqJer2eSyAQppHJE1mfqhPDRHn2b4Lw8Yd4keCLc=
+=vv/S
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+To be absolutely certain that a key is mine you will need authenticate it using my GPG fingerprint that is below or downloaded [here http://sshifflett.sdf.org/sshifflett_fprint.txt]:
+
+```
+pub   2048R/07FC6503 2016-08-05
+      Key fingerprint = 757B 85AB BC57 B0ED E33B  193A 611F A2F3 07FC 6503
+uid                  Shawn Shifflett <sshifflett@sdf.org>
+sub   2048R/C36DA9E7 2016-08-05
+```
+
+==== Locations ====
+
+I can be found on [GitHub https://github.com/shawnshifflett], [Twitter https://twitter.com/shawnshiff], and on irc.freenode.org in #sshifflett.
+
+==== Personal Software ====
+
+My personal preference for desktop software is [BunsenLabs Linux http://bunsenlabs.org] running the [OpenBox http://openbox.org] window manager on the [XFCE desktop environment https://www.xfce.org/].
+
+==== Server Software ====
+
+The software and infrastructure used to create this website are [SDF http://sdf.org], [VIM http://www.vim.org/], and [GNU Screen https://www.gnu.org/software/screen/]. I do not write the html code manually. Instead I use [txt2tags http://txt2tags.org/] to generate the html using a markup language.
+
+'''
+<nav>
+  <ul>
+  <li><a href="index.html">home</a></li>
+  <li><a href="http://sshifflett.sdf.org/notes.html">notes</a></li>
+</ul>
+</nav>
+'''

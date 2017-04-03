@@ -1,0 +1,39 @@
+p {
+        text-align: justify;
+        font-size: 95%;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h {   
+        text-align: justify;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+code {
+    background-color: #EBECE4;
+    border: black dashed 1px; padding:6px;
+    width: 700px;
+}
+   
+pre {
+    background-color: #EBECE4;
+    border: black dashed 1px; padding:6px;
+    width: 800px;
+}
+
+nav {
+    background-color: #E0EBF5;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+    display: inline-block;
+    list-style-type: none;
+}
