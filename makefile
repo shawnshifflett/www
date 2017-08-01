@@ -1,5 +1,4 @@
-# website generation, taviso@sdf.lonestar.org
-# # $Revision: 1.1
+# # $Revision: 1.3
 #
 
 makehtml :

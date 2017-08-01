@@ -8,7 +8,7 @@ This page last modified on %%mtime(%c) UTC
 
 ==== About ====
 
-I am currently a QSA, and have worked in information security for the last twenty years. I am an advocate of FOSS, cryptography, LaTeX, and all variants of Unix/Linux.
+I am currently employed as a PCI / PA QSA. I have worked in information security for twenty years. I am an advocate of FOSS, cryptography, privacy, minimalist computing environments, and OpenBSD.
 
 ==== Email ====
 
@@ -53,7 +53,7 @@ uR7AzGVAqJer2eSyAQppHJE1mfqhPDRHn2b4Lw8Yd4keCLc=
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-To be absolutely certain that a key is mine you will need authenticate it using my GPG fingerprint that is below or downloaded [here http://sshifflett.sdf.org/sshifflett_fprint.txt]:
+To be absolutely certain that a key is mine you will need to authenticate it using my GPG fingerprint that is below or downloaded [here http://sshifflett.sdf.org/content/sshifflett_fprint.txt]:
 
 ```
 pub   2048R/07FC6503 2016-08-05
@@ -64,21 +64,22 @@ sub   2048R/C36DA9E7 2016-08-05
 
 ==== Locations ====
 
-I can be found on [GitHub https://github.com/shawnshifflett], [Twitter https://twitter.com/shawnshiff], and on irc.freenode.org in #sshifflett.
+I can be found on [GitHub https://github.com/shawnshifflett], [Twitter https://twitter.com/shawnshiff], [Mastodon https://mastodon.sdf.org/@SShifflett], and on irc.freenode.org in #sshifflett, #openbsd, #openbsd-daily, or #ratpoison.
 
 ==== Personal Software ====
 
-My personal preference for desktop software is [BunsenLabs Linux http://bunsenlabs.org] running the [OpenBox http://openbox.org] window manager on the [XFCE desktop environment https://www.xfce.org/].
+My personal preference for desktop software is [OpenBSD 6.1 http://openbsd.org] running the [Ratpoison http://nongnu.org/ratpoison/] window manager with the [CWM http://man.openbsd.org/cwm] window manager as a temporary solution for when I need a non-tiling windowed environment. I use newsfetch for reading NNTP feeds, and snownews for reading RSS feeds. I try to contain most of my computing to a terminal and the command line. 
 
 ==== Server Software ====
 
-The software and infrastructure used to create this website are [SDF http://sdf.org], [VIM http://www.vim.org/], and [GNU Screen https://www.gnu.org/software/screen/]. I do not write the html code manually. Instead I use [txt2tags http://txt2tags.org/] to generate the html using a markup language.
+The software and infrastructure used to create this website are [SDF http://sdf.org], [VIM http://www.vim.org/], and [tmux https://tmux.github.io]. I do not write the html code manually. Instead I use [txt2tags http://txt2tags.org/] to generate the html using a markup language.
 
 '''
+<hr>
 <nav>
   <ul>
   <li><a href="index.html">home</a></li>
-  <li><a href="http://sshifflett.sdf.org/notes.html">notes</a></li>
+  <li><a href="notes.html">notes</a></li>
 </ul>
 </nav>
 '''
