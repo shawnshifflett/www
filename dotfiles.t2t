@@ -1,0 +1,187 @@
+sshifflett.sdf.org
+Shawn Shifflett
+This page last modified on %%mtime(%c) UTC
+
+%!target  : html
+%!options : --encoding=iso-8859-1
+%!style   : styles.css
+
+My personal dot files for my OpenBSD / GnuLinux instances. Right now all of these are specific to OpenBSD 6.1 or NetBSD 7.1.
+
+==== ~/.Xresources ====
+
+This file's contents is too large to usefully display on this page.
+
+Download [.Xresources Xresources].
+
+==== ~/.cwmrc ====
+
+```
+# C=Control M=Alt S=Shift 4=Windows
+# 1=left 2=middle 3=right 4=up 5=down
+
+# Let's unbind things that we don't need
+# Unbind CTL-AL-DEL if this is a VM on a Windows host
+# unbind-key CM-Delete
+
+# We need to identify window colors
+borderwidth 2
+color activeborder blue
+color inactiveborder darkblue
+gap 0 0 0 180
+
+# Make some useful program chords
+# If there is already a binding, unbind it first
+
+bind-key C-s menu-ssh
+
+unbind-key CM-Return
+bind-key CM-Return 'xterm +vb +sb -ls -fn 9x15 -bg black -fg gray -geometry 80x30'
+
+
+# Add interesting applications to the app menu
+command "chromium browser"      chrome
+```
+
+Download [.cwmrc cwmrc].
+
+==== ~/.mhruprofile ====
+
+```
+Editor: /usr/bin/vim
+```
+
+Download [.mhruprofile mhruprofile].
+
+==== ~/.profile ====
+
+```
+# $OpenBSD: dot.profile
+#
+# sh/ksh initialization
+
+PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:
+export PATH HOME TERM
+
+# Choose the default editor
+EDITOR=/usr/local/bin/vim
+
+# Set the default terminal mode
+TERM=xterm-color
+
+# Set useful command aliases
+alias ls="ls -lg"
+alias lynx="lynx -accept_all_cookies -editor=vim -nolog"
+
+# Make our environmental variables active
+export EDITOR TERM
+
+# Set a pleasant prompt
+PS1="\e[0;32[\u@\h \W]\$ \e[m "
+```
+Download [.profile profile].
+
+==== ~/.ratpoisonrc ====
+
+```
+# Request that Ratpoison stop staying hello to me
+startup_message off
+
+# Change the escape key to something sane
+
+escape s-space
+
+# Create sane window borders
+set border 5
+
+# Change window titles to resource classes instead of titles
+winname 
+
+# Unbind things that are not useful
+unbind C-g
+unbind C-Return
+unbind Return
+unbind C-V
+unbind C-underscore
+unbind C-u
+unbind U
+unbind space
+unbind C-space
+unbind C-b
+unbind r
+unbind C-r
+unbind f
+unbind C-f
+unbind m
+unbind C-m
+unbind C-v
+unbind C-w
+unbind C-x
+unbind i
+unbind C-i
+unbind k
+unbind C-k
+unbind C-K
+unbind C-A
+unbind C-n
+unbind C-p
+unbind C-apostrophe
+
+# Create some useful keybinds
+# If keys are already bound to a function then unbind them first
+
+# Designation of vertical splits are confusing
+unbind S
+unbind C-S
+bind V hsplit
+
+# Designation of horizontal splits are confusing
+unbind s
+unbind C-s
+bind H vsplit
+
+# Abort key needs to be defined as something sane
+bind Escape abort
+
+# Switch to an alternate Window Manager
+bind C-t tmpwm /usr/X11R6/bin/cwm
+
+# Time display mapped to 'a' makes my head hurt
+unbind C-a
+unbind a
+bind t time
+
+# Ensure that tmux is executed when a shell begins, and allow for a shell without tmux
+unbind c
+unbind C-c
+bind c exec /usr/X11R6/bin/xterm -e tmux
+bind C-c exec /usr/X11R6/bin/xterm
+
+# Change the "only" key to O instead of Q
+unbind Q
+bind O only
+```
+
+Download [.ratpoisonrc ratpoisonrc].
+
+==== ~/.vimrc ====
+
+```
+syntax on
+set nocompatible
+set backspace=indent,eol,start
+set backspace=2
+highlight Normal ctermfg=gray ctermbg=black
+```
+
+Download [.vimrc vimrc].
+
+'''
+<hr>
+<nav>
+  <ul>
+  <li><a href="../index.html">home</a></li>
+  <li><a href="../notes.html">notes</a></li>
+</ul>
+</nav>
+'''
