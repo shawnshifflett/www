@@ -10,7 +10,7 @@ My personal dot files for my OpenBSD / GnuLinux instances. Right now all of thes
 
 ==== ~/.Xresources ====
 
-This file's contents is too large to usefully display on this page.
+This file's content is too large to usefully display on this page.
 
 Download [.Xresources Xresources].
 
@@ -175,6 +175,12 @@ highlight Normal ctermfg=gray ctermbg=black
 ```
 
 Download [.vimrc vimrc].
+
+==== ~/.tmux.conf ====
+
+This file's content is too large to usefully display on this page.
+
+Download [.tmux.conf tmux.conf]
 
 '''
 <hr>

@@ -46,7 +46,7 @@ The software and infrastructure used to create this website are [SDF http://sdf.
 <nav>
   <ul>
   <li><a href="index.html">home</a></li>
-  <li><a href="dotfiles\dotfiles.html">dotfiles</a></li>
+  <li><a href="dotfiles/dotfiles.html">dotfiles</a></li>
   <li><a href="notes.html">notes</a></li>
 </ul>
 </nav>
