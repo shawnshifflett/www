@@ -12,7 +12,7 @@ I am currently employed as a PCI / PA QSA. I have worked in information security
 
 ==== Email ====
 
-I strongly prefer plaintext emails, and I use [nmh http://www.nongnu.org/nmh/] for all email correspondence. If you send me a HTML-formatted message I will still view it as plain text, and that may cause me to miss details specific to HTML formatting. I can be contacted at the following email address:
+I strongly prefer plaintext emails, and I use [mutt http://www.mutt.org/] for all email correspondence. If you send me a HTML-formatted message I will still view it as plain text, and that may cause me to miss details specific to HTML formatting. I can be contacted at the following email address:
 
 sshifflett <at> sdf <dot> org
 
@@ -31,21 +31,22 @@ sub   2048R/C36DA9E7 2016-08-05
 
 ==== Locations ====
 
-I can be found on [GitHub https://github.com/shawnshifflett], [Twitter https://twitter.com/shawnshiff], [Mastodon https://mastodon.sdf.org/@SShifflett], and on irc.freenode.org in #sshifflett, #openbsd, #openbsd-daily, or #ratpoison.
+I can be found on [GitHub https://github.com/shawnshifflett], [Twitter https://twitter.com/shawnshiff], [Mastodon https://mastodon.sdf.org/@SShifflett], and registered as sshifflett on irc.freenode.org.
 
 ==== Personal Software ====
 
-My personal preference for desktop software is [OpenBSD 6.1 http://openbsd.org] running the [Ratpoison http://nongnu.org/ratpoison/] window manager with the [CWM http://man.openbsd.org/cwm] window manager as an alternate  solution when I need a non-tiling windowed environment. 
+My personal preference for desktop software is [OpenBSD 6.2 http://openbsd.org] running the [Ratpoison http://nongnu.org/ratpoison/] window manager with the [CWM http://man.openbsd.org/cwm] window manager as an alternate solution when I need a non-tiling windowed environment. 
 
 ==== Server Software ====
 
-The software and infrastructure used to create this website are [SDF http://sdf.org] running NetBSD 7.1, [VIM http://www.vim.org/], and [tmux https://tmux.github.io]. I do not write the html code manually. Instead I use [txt2tags http://txt2tags.org/] to generate the html using a markup language.
+The software and infrastructure used to create this website are [SDF http://sdf.org] running NetBSD 8.0_BETA, [VIM http://www.vim.org/], and [tmux https://tmux.github.io]. I do not write the html code manually. Instead I use [txt2tags http://txt2tags.org/] to generate the html using a markup language.
 
 '''
 <hr>
 <nav>
   <ul>
   <li><a href="index.html">home</a></li>
+  <li><a href="baseball.html">baseball</a></li>
   <li><a href="dotfiles/dotfiles.html">dotfiles</a></li>
   <li><a href="notes.html">notes</a></li>
 </ul>

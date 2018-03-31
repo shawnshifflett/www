@@ -1,12 +1,12 @@
-sshifflett.sdf.org
+Dotfiles
 Shawn Shifflett
 This page last modified on %%mtime(%c) UTC
 
 %!target  : html
-%!options : --encoding=iso-8859-1
+%!options : --toc --toc-level=4 --encoding=iso-8859-1
 %!style   : styles.css
 
-My personal dot files for my OpenBSD / GnuLinux instances. Right now all of these are specific to OpenBSD 6.1 or NetBSD 7.1.
+My personal dot files for my OpenBSD / GnuLinux instances. Right now all of these are specific to OpenBSD 6.2 or NetBSD 7.1.
 
 ==== ~/.Xresources ====
 
@@ -182,8 +182,22 @@ This file's content is too large to usefully display on this page.
 
 Download [.tmux.conf tmux.conf]
 
+==== ~/.xinitrc ====
+
+```
+xset +fp /usr/local/share/fonts/noto
+xsetroot -solid grey
+
+exec /usr/X11R6/bin/cwm
+```
+
+Download [.xinitrc xinitrc]
+
+==== /etc/X11/xorg.conf ====
+
+Download [xorg.conf xorgconf]
+
 '''
-<hr>
 <nav>
   <ul>
   <li><a href="../index.html">home</a></li>

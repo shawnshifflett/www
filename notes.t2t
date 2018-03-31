@@ -65,6 +65,12 @@ sudo dpkg -i <driver.deb>
 sudo apt-get install -f
 ```
 
+Add your desired user to the lpadmin group to allow administration of CUPS.
+
+```
+sudo gpasswd -a <YOURUSER> lpadmin
+```
+
 Connect to the local CUPS server, install the Dell printer via the admin interface, but choose the Xerox 6000B driver.
 
 ```
@@ -94,12 +100,70 @@ Restart Rio to show the change:
 ==== Actually Using Ed Blog Post ====
 [Actually Using Ed https://sanctum.geek.nz/arabesque/actually-using-ed/]
 
+==== Enable kernel hardware management on OpenBSD and MacBook Pro ====
+Add ``hw.perfpolicy=auto`` to ``/etc/sysctl.conf``
+
+==== Configure environmental controls on OpenBSD and MacBook Pro ====
+
+Configure right-clicking on trackpad in X:
+
+* add to .xinitrc
+
+```
+synclient TapButton1=1
+synclient TapButton2=3
+synclient TapButton3=2
+```
+
+* configure screen and key lights manually
+
+```
+wsconsctl display.brightness=N%
+wsconsctl keyboard.backlight=N%
+```
+
+==== Disabled the demon touchpad on Bunsen Labs Linux ====
+
+Find the device ID associated with your touchpad:
+
+```
+sudo xinput
+```
+
+Disabled is based on its device ID:
+
+```
+xinput set-prop <id> "Device Enabled" 0
+```
+
+==== Emacs ====
+
+[Absolute Beginners Guide to Emacs http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/]
+
+==== Full-Screen VirtualBox w/ Linux Host and OpenBSD Guest ====
+
+On host Linux system execute:
+
+```
+VBoxManage setextradata [VM-name] CustomVideoMode1 [WxHxBPP]
+```
+
+On guest OpenBSD system use the following [xorg.conf http://sshifflett.sdf.org/xorgconf] file in /etc/X11.
+
+Credit for the help, and the original article is hosted at [HiR http://www.h-i-r.net/2009/11/virtualbox-full-screen-resolution-for.html].
+
+==== Detect and Update Resolution on 9Front Installations ====
+
+@{rfork n; aux/realemu; aux/vga -p} # obtain a list of vesa bios modes
+
+@{rfork n; aux/realemu; aux/vga -m vesa -l 1024x768x16} # example resolution
+
+
 '''
-<hr>
 <nav>
   <ul>
   <li><a href="index.html">home</a></li>
-  <li><a href="dotfiles\dotfiles.html">dotfiles</a></li>
+  <li><a href="dotfiles/dotfiles.html">dotfiles</a></li>
 </ul>
 </nav>
 '''
