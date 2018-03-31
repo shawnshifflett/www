@@ -1,0 +1,32 @@
+Baseball
+Shawn Shifflett
+This page last modified on %%mtime(%c) UTC
+
+%!target  : html
+%!options : --toc --toc-level=4 --encoding=iso-8859-1
+%!style   : styles.css
+
+I am a baseball statistics junkie. In my spare time I enjoy replaying seasons using card and dice systems, and I also participate in several online leagues.
+
+==== 2017 Season Tournament ====
+
+[Dynasty League and Strat-O-Matic http://sshifflett.sdf.org/baseball/dlt2017/replay.html]
+
+==== Dynasty League Online ====
+
+[PRNBL 2017 Season http://www.dynastyleaguebaseball.com/Team.aspx?OrgID=94370&TeamID=7]
+
+==== The Tyler Glasnow Experience ====
+
+In which I replay every 2017 loss by Tyler Glasnow and see if I can do better. The only rules are the Pirates lineup must remain the same as played, and Tyler Glasnow must start and stay in as long as possible.
+
+
+'''
+<nav>
+  <ul>
+  <li><a href="http://sshifflett.sdf.org/index.html">home</a></li>
+  <li><a href="http://sshifflett.sdf.org/notes.html">notes</a></li>
+  <li><a href="http://sshifflett.sdf.org/dotfiles/dotfiles.html">dotfiles</a></li>
+</ul>
+</nav>
+'''
