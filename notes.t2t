@@ -8,18 +8,15 @@ This page last modified on %%mtime(%c) UTC
 
 I keep personal notes that I doubt anyone but me would find useful, but maybe these can help someone else.
 
-==== GitHub Open Source Guide ====
-
-[GitHub Open Source Guide https://opensource.guide/]
-
 ==== Generate SSH keys ====
 
 On client:
 
 ```
 ssh-keygen -t rsa
-Transfer client's id_rsa.pub to server.
 ```
+
+Transfer client's id_rsa.pub file to server of interest.
 
 On server:
 
@@ -158,7 +155,34 @@ Credit for the help, and the original article is hosted at [HiR http://www.h-i-r
 
 @{rfork n; aux/realemu; aux/vga -m vesa -l 1024x768x16} # example resolution
 
+==== Install OpenBSD with whole drive encryption ====
 
+Assumptions are that installation is from USB media. Boot from the installer USB stick and then select [S]hell to get a command prompt.
+
+```
+# fdisk -iy sd0		# MBR not GPT
+# disklabel -E sd0
+>a a
+offset:[64]
+size:[the size of your drive]
+FS type:[4.2BSD] RAID
+>w
+>q
+No label changes
+# bioctl -c C -l sd0a softraid0
+New pass phrase:
+re-type passphrase
+# cd /dev && sh MAKEDEV sd2
+# dd if=/dev/zero of=/dev/rsd2c bs=1m count=1
+# exit
+```
+
+The exit command starts the installer script. Select 'sd2' as the installer disk. Specify [disk] as the location of the package sets and then answer 'no' when asked if the disk is mounted, select 'sd1', mount the 'a' partition.
+
+==== An Introduction to Programming in Emacs Lisp ====
+
+[HTML https://www.gnu.org/software/emacs/manual/eintr.html]
+ 
 '''
 <nav>
   <ul>

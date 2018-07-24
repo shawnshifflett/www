@@ -6,7 +6,7 @@ This page last modified on %%mtime(%c) UTC
 %!options : --toc --toc-level=4 --encoding=iso-8859-1
 %!style   : styles.css
 
-My personal dot files for my OpenBSD / GnuLinux instances. Right now all of these are specific to OpenBSD 6.2 or NetBSD 7.1.
+My personal dot files for my OpenBSD / GnuLinux instances. Right now all of these are specific to OpenBSD 6.3 or NetBSD 8.0_BETA.
 
 ==== ~/.Xresources ====
 

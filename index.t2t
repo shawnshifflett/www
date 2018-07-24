@@ -8,15 +8,15 @@ This page last modified on %%mtime(%c) UTC
 
 ==== About ====
 
-I am currently employed as a PCI / PA QSA. I have worked in information security for twenty years. I am an advocate of FOSS, cryptography, privacy, minimalist computing environments, and OpenBSD.
+I am currently employed as a PCI and PA QSA. I have worked in information security for twenty years with a specialization in application security. I am an advocate of FOSS, cryptography, privacy, minimalist computing environments, 9Front, and OpenBSD. All opinions and topics on this site are mine and not of my shell provider or of my my employer. 
 
 ==== Email ====
 
-I strongly prefer plaintext emails, and I use [mutt http://www.mutt.org/] for all email correspondence. If you send me a HTML-formatted message I will still view it as plain text, and that may cause me to miss details specific to HTML formatting. I can be contacted at the following email address:
+I strongly prefer plaintext emails as I use [mutt http://www.mutt.org/] for all email correspondence. If you send me a HTML-formatted message I will still view it as plain text which may cause me to miss details specific to HTML formatting. I can be contacted at the following email address:
 
 sshifflett <at> sdf <dot> org
 
-Please note that I use a 3rd party email service provider. The admins of the service provider are able to read all my incoming and outgoing mail. This is by definition how email infrastructures work, and it is irrelevant whether TLS or other encryption is used between email clients and corresponding email servers. Please consider using public key encryption to secure our communication. Using my public key allows you to at least gain a reasonable level of assurance that my message originates from me, and has not been modified en route. Please feel free to exchange keys with me to allow for message encryption.
+Please note that I use a third-party email service provider. The admins of that service provider are able to read all my incoming and outgoing mail. This is by definition how email infrastructures work and it is irrelevant whether TLS or other encryption is used between email clients and corresponding email servers. Please consider using public key encryption to secure our communication. Using my public key allows you to at least gain a reasonable level of assurance that my message originates from me and has not been modified en route. Please feel free to exchange keys with me.
 
 You can download my public key [here http://sshifflett.sdf.org/content/sshifflett_pubkey.txt].
 
@@ -31,24 +31,24 @@ sub   2048R/C36DA9E7 2016-08-05
 
 ==== Locations ====
 
-I can be found on [GitHub https://github.com/shawnshifflett], [Twitter https://twitter.com/shawnshiff], [Mastodon https://mastodon.sdf.org/@SShifflett], and registered as sshifflett on irc.freenode.org.
+I can be found on [GitHub https://github.com/shawnshifflett], [Twitter https://twitter.com/shawnshiff], and registered as sshifflett on irc.freenode.org.
 
-==== Personal Software ====
+==== Personal Computing ====
 
-My personal preference for desktop software is [OpenBSD 6.2 http://openbsd.org] running the [Ratpoison http://nongnu.org/ratpoison/] window manager with the [CWM http://man.openbsd.org/cwm] window manager as an alternate solution when I need a non-tiling windowed environment. 
+My operating system of choice for most tasks is [OpenBSD 6.3 http://openbsd.org]. My personal preference for my computing environment is a text console running the [tmux https://tmux.github.io] terminal multiplexer. When my needs require a graphical interface I prefer the [Ratpoison http://nongnu.org/ratpoison/] window manager with the [CWM http://man.openbsd.org/cwm] window manager as an alternate when I need non-tiling windows. 
 
 ==== Server Software ====
 
-The software and infrastructure used to create this website are [SDF http://sdf.org] running NetBSD 8.0_BETA, [VIM http://www.vim.org/], and [tmux https://tmux.github.io]. I do not write the html code manually. Instead I use [txt2tags http://txt2tags.org/] to generate the html using a markup language.
+The software and infrastructure used to create this website are [SDF http://sdf.org] running NetBSD 8.0_BETA, [GNU Emacs http://gnu.org/software/emacs], [VIM http://www.vim.org/], and [tmux https://tmux.github.io]. I do not write the html code manually. Instead I use [txt2tags http://txt2tags.org/] within a custom makefile to generate the html using a markup language.
 
 '''
 <hr>
 <nav>
   <ul>
   <li><a href="index.html">home</a></li>
-  <li><a href="baseball.html">baseball</a></li>
   <li><a href="dotfiles/dotfiles.html">dotfiles</a></li>
   <li><a href="notes.html">notes</a></li>
+  <li><a href="stuff.html">stuff</a></li>
 </ul>
 </nav>
 '''
